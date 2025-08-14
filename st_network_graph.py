@@ -1,6 +1,8 @@
 from pyvis.network import Network
 import streamlit as st
 
+st.set_page_config(layout="wide")
+
 net = Network(height="750px", width="100%", directed=True)
 
 # Example org data
